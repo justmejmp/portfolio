@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -11,52 +12,114 @@
             <div class="menuToggle"></div>
             <ul class="nav">
                 <li class="active"><a href="#home">Home</a></li>
-                <li><a href="#service">Services</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </header>
-        <section id="home"></section>
+        <section id="home">
         <div class="content">
-            <h2>Justyna M.Partyniewicz</h2>
-            <p>Now, where do we stand?
-                Baby, baby, baby (baby, baby, baby)
-                No one knows who you are
-                And if this was your plan
-                Tell me, tell me why
-                You've been cryin' in the dark
-                We unraveled a long time ago
-                We lost and we couldn't let it go
-                I wish it was easy, but it isn't so
-                So, baby</p>
-                <a href="#" class="btn">Contact Me</a>
+            <h2>Justyna M. Partyniewicz</h2>
+            <p> Now, dark We unraveled a long time ago We  it was easy, but it isn't so So, baby</p>
+                <a href="#contact" class="btn">Contact Me</a>
         </div>
         <img src="ja.png" class="ja">
     </section>
-        <section id="service"></section>
+        <section id="services">
         <div class="secText">
-            <h2>Experience</h2>
-            <p>informationsdgnsjdfhsbdghsbdghbsdhjgbhsdbghsdbgjhsbdgjhbgjbfdgj</p>
+            <h2>more about me</h2>
+            <p> experience and interests at </p>
         </div>
         <div class="content">
-            <div class="=servicesBx">
+            <div class="servicesBx">
                 <img src="icon1.png">
-                <h3>Website</h3>
+                <h3>testing</h3>
             </div>
-            <div class="=servicesBx">
+            <div class="servicesBx">
                 <img src="icon2.png">
-                <h3>Website2</h3>
+                <h3>managing projects</h3>
             </div>
-            <div class="=servicesBx">
+            <div class="servicesBx">
                 <img src="icon3.png">
-                <h3>Website3</h3>
+                <h3>business analysis</h3>
             </div>
-            <div class="=servicesBx">
+            <div class="servicesBx">
                 <img src="icon4.png">
-                <h3>Website4</h3>
+                <h3>new ideas and creatyvity</h3>
             </div>
         </div>
-        <section id="portfolio"></section>
-        <section id="contact"></section>
+        <div class="center">
+            <a href="#" class="btn">Hire me</a>
+        </div>
+        </section>
+        <section id="portfolio">
+        <div class="secText">
+            <h2>My side projects</h2>
+            <p>for my own purpose and for fun</p>
+        </div>
+        <div class="content">
+            <div class="imgBx">
+                <img src="img1.jpg">
+            </div>
+            <div class="imgBx">
+                <img src="img2.jpg">
+            </div>
+            <div class="imgBx">
+                <img src="img3.jpg">
+            </div>
+            <div class="imgBx">
+                <img src="img4.jpg">
+            </div>
+        </div>
+        <div class="center">
+            <a href="#" class="btn">view more</a>
+        </div>
+        </section>
+        <section id="contact">
+            <div class="secText">
+                <h2>Ways To Contact Me</h2>
+                <p>Do you have any questions?
+                    I will answer all messages within 24 hours.
+                    I would also like to drink coffee with you. I'm waiting for your contact! :) </p>
+            </div>
+            <div class="content">
+                <!--<a href="#">-->
+                    <a href="mailto:jmpartyniewicz@gmail.com">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    jmpartyniewicz@gmail.com
+                </a>
+            <a href="#">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+                phone
+            </a>
+            </div>
+        <div class="center">
+            <p class="copyrights">Copyrights @2023
+                <a href="#">made with 
+                    <ion-icon name="heart-outline"></ion-icon>
+                    by jmp</a>. All rights reserved
+            </p>
+        </div>
+        </section>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script>
+        let list = document.querySelectorAll('.nav li');
+        function active(){
+            list.forEach((i)=>
+            i.classList.remove('active'));
+            this.classList.add('active');
+        }
+        list.forEach((i)=>
+        i.addEventListener('click', active));
+
+        let menuToggle= document.querySelector('.menuToggle');
+        let header =document.querySelector('header');
+        menuToggle.onclick= function() {
+            header.classList.toggle('active');
+            
+        }
+    </script>
     </body>
 </html>
