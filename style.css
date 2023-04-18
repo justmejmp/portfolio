@@ -408,7 +408,7 @@ header .active ul li a
 #portfolio .content,
 #contact .content
 {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,2fr);
 }
 #contact .content a 
 {
