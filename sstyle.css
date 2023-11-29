@@ -332,7 +332,7 @@ audio::-webkit-media-controls {
 /* Add custom play/pause button */
 .audio-container button {
    background-color: transparent;
-   color: #FF9999;
+   color: white;
    border: none;
    padding: 10px 20px;
    cursor: pointer;
