@@ -321,7 +321,7 @@ transform: rotate(360deg) translate(175px) rotate(360deg);
 audio {
    width: 100%;
    display: block;
-   opacity: 0.2; /* Set the opacity to your desired level (0.0 to 1.0) */
+   opacity: 0.4; /* Set the opacity to your desired level (0.0 to 1.0) */
 }
 
 /* Hide default audio controls */
