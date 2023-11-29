@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+}
+.container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 40px;
+    height: 450px;
+    background-color: burlywood;
+    margin: 10px;
+    cursor: pointer;
+    transition: width 0.3s ease-in, heihght 0.3s ease-in;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+
+}
+.expanded{
+    width:400px;
+    height: 470px;
+
+}
+.image1 {
+    background-image: url('image1.jpeg');
+    
+}
+.image2 {
+    background-image: url('image2.jpeg');
+ 
+}
+.image3 {
+    background-image: url('image3.jpeg');
+   
+}
+.image4 {
+    background-image: url('image4.jpeg');
+    
+}
