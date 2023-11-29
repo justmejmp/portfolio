@@ -307,5 +307,42 @@ transform: rotate(360deg) translate(175px) rotate(360deg);
    transform: rotate(360deg) translate(125px) rotate(360deg);
        }
     }
+
+.audio-container {
+   /*text-align: center;
+   margin-top: 2px;*/
+   position: fixed;
+   left: 20px; /* Adjust the left position as needed */
+   top: 50%; /* Center vertically on the page */
+   transform: translateY(-50%);
+   text-align: center;
+}
+
+audio {
+   width: 100%;
+   display: block;
+   opacity: 0.2; /* Set the opacity to your desired level (0.0 to 1.0) */
+}
+
+/* Hide default audio controls */
+audio::-webkit-media-controls {
+   display: none !important;
+}
+
+/* Add custom play/pause button */
+.audio-container button {
+   background-color: transparent;
+   color: #fff;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+/* Style the custom button on hover */
+.audio-container button:hover {
+   background-color: transparent;
+}
+                      
+
     
                       
