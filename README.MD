@@ -6,7 +6,7 @@
 <li> schema of website</li>
 <li> draft of mobile </li>
 <li> draft for finance platform </li>
-<li> galerry </li>
+<li> gallery </li>
 <li> solar system</li>
 </ul>
 
