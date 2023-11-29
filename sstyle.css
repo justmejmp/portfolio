@@ -340,7 +340,7 @@ audio::-webkit-media-controls {
 
 /* Style the custom button on hover */
 .audio-container button:hover {
-   background-color: transparent;
+   background-color:#FF9999;
 }
                       
 
