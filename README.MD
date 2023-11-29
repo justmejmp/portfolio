@@ -3,6 +3,7 @@
 
 ## contents ##
 <ul>
+<li> css animation </li>
 <li> schema of website</li>
 <li> draft of mobile </li>
 <li> draft for finance platform </li>
